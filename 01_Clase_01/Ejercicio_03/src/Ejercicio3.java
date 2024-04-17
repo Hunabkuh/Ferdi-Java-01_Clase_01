@@ -16,7 +16,7 @@ public class Ejercicio3 {
         byte edadMadre = teclado.nextByte();
 
         teclado.close();
-        float mediaEdad = (edadMadre + edadPadre) / 2;
+        float mediaEdad = (float)(edadMadre + edadPadre) / 2;
 
         System.out.println("Ok, entonces tu madre se llama " + nombreMadre + " y tiene " + edadMadre
                 + " años, y tu padre se llama " + nombrePadre + " y tiene " + edadPadre
